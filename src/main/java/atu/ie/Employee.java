@@ -4,10 +4,17 @@ public class Employee {
     private String name;
     private Long number;
 
+    private void myEployee() {
+        Setname("Jamie");
+        Setnumber(123456789012);
+    }
+
     public Employee(String name, Long number){
         Setname(name);
         Setnumber(number);
     }
+
+
 
     public String GetName(){
         return name;
